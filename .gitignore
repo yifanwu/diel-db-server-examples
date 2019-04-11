@@ -1,0 +1,12 @@
+.DS_Store
+*.tgz
+.awcache
+node_modules/
+assets/js/
+*.js.map
+*.old
+*.pdf
+*.csv
+*.txt
+*.db
+*.scrap

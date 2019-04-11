@@ -1,0 +1,40 @@
+{
+  "name": "diel-db-server-examples",
+  "version": "1.0.0",
+  "description": "Examples using the DIEL framework and the diel db server",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot",
+    "start:production": "webpack-dev-server --mode production",
+    "build": "npm run clean && webpack --mode production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yifanwu/diel-db-server-examples.git"
+  },
+  "author": "yifan wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yifanwu/diel-db-server-examples/issues"
+  },
+  "homepage": "https://github.com/yifanwu/diel-db-server-examples#readme",
+  "dependencies": {
+    "@types/d3": "^5.7.1",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "@types/sql.js": "0.0.29",
+    "d3": "^5.9.2",
+    "diel": "^1.0.7",
+    "diel-ui": "^1.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sql.js": "^0.5.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.4.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
