@@ -1,5 +1,5 @@
 import * as React from "react";
-import { diel } from "../setup";
+import { diel } from "../index";
 import { DielComponent, ChartType, DielComponentProps } from "diel-ui";
 
 

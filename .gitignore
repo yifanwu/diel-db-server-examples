@@ -8,5 +8,5 @@ assets/js/
 *.pdf
 *.csv
 *.txt
-*.db
+*.sqlite
 *.scrap

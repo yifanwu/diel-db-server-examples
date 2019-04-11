@@ -1,25 +1,30 @@
-
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "es2015",
-    "lib": ["es2017", "dom"],
-    "moduleResolution": "node",
-    "declaration": false,
-    "noImplicitAny": false,
+    "module": "commonjs",
+    "lib": ["es6", "dom"], // hm what's with the dom
+    
+    "declaration": true,
+    "declarationMap": true,
     "sourceMap": true,
-    "strictNullChecks": false,
-    "jsx": "react",
-    "suppressImplicitAnyIndexErrors": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "importHelpers": true,
-    "experimentalDecorators": true
+
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    // "noUnusedLocals": true, // cannot use because ANTLR generated files have this problem
+    // "preserveConstEnums": true,
+    
+    "experimentalDecorators": true,
+    "composite": true
   },
-  "files": ["src/index.tsx"],
-  "awesomeTypescriptLoaderOptions": {
-    "useCache": true,
-    "forceIsolatedModules": true,
-    "silent": true
-  }
+ "include":[],
+
+ "references": [
+    {
+      "path": "./ui"
+    },
+    {
+      "path": "./server"
+    },
+  ]
 }

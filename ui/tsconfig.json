@@ -1,0 +1,10 @@
+{
+  "extends": "..",
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "../build",
+    "rootDir": ".."
+  },
+  "files": ["index.tsx"],
+  "include": ["**/*", "../package.json"]
+}

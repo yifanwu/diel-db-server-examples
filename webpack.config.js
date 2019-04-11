@@ -1,5 +1,5 @@
 module.exports = {
-    entry: "./src/index.tsx",
+    entry: "./ui/index.tsx",
     output: {
         filename: "bundle.js",
         path: __dirname + "/dist",
@@ -18,11 +18,12 @@ module.exports = {
     module: {
         rules: [
             // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
+            // 
             {
                 test: /\.tsx?$/,
-                use: [
-                    {loader: "awesome-typescript-loader" }
-                ]
+                loaders: [
+                  'awesome-typescript-loader?{configFileName: "ui/tsconfig.json"}',
+                ],
             },
             // {
             //     test: /\.js$/,

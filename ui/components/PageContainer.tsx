@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import PitchFork from "./PitchFork";
-import { diel } from "../setup";
+import { diel } from "../index";
 
 export const PageContainer = () => {
   const bindOutput = diel.BindOutput.bind(diel);
