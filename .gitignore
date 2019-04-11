@@ -3,6 +3,7 @@
 .awcache
 node_modules/
 assets/js/
+tmp/
 *.js.map
 *.old
 *.pdf
