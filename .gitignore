@@ -2,6 +2,7 @@
 *.tgz
 .awcache
 node_modules/
+build/
 assets/js/
 tmp/
 *.js.map
