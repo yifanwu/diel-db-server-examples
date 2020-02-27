@@ -4,7 +4,7 @@ This repo is an example that demonstrates [diel](http://logical-interactions.git
 
 ## Instructions
 
-You should go to `/simple-data`, read the readme and put the files in the folder `server/sample-data`, then do the following (with the last two commands in two separate windows).
+You should go to `./server/sample-data`, read the readme and put the files in the folder `server/sample-data`, then do the following (with the last two commands in two separate windows).
 
 ```bash
 npm install
